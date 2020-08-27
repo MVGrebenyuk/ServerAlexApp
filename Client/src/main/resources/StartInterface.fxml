@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="603.0" prefWidth="409.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client">
+   <children>
+      <Button layoutX="178.0" layoutY="533.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="52.0" text="Home" />
+      <Button layoutX="2.0" layoutY="549.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="83.0" text="News" />
+      <Button layoutX="325.0" layoutY="549.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="83.0" text="Flood" />
+      <Button layoutX="353.0" layoutY="-2.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="52.0" text="LS" />
+      <AnchorPane fx:id="GeneralNewsPane" layoutX="2.0" layoutY="42.0" prefHeight="511.0" prefWidth="403.0">
+         <children>
+            <Pane fx:id="NewsPane" prefHeight="511.0" prefWidth="403.0">
+               <children>
+                  <Separator layoutX="102.0" layoutY="146.0" prefWidth="200.0" />
+                  <Separator layoutX="109.0" layoutY="327.0" prefWidth="200.0" />
+                  <Pane fx:id="News1" layoutX="1.0" prefHeight="137.0" prefWidth="403.0">
+                     <children>
+                        <Label layoutX="168.0" layoutY="14.0" prefHeight="30.0" prefWidth="68.0" text="Новость 1" />
+                     </children></Pane>
+                  <Pane fx:id="News2" layoutX="1.0" layoutY="161.0" prefHeight="150.0" prefWidth="403.0">
+                     <children>
+                        <Label layoutX="168.0" layoutY="14.0" prefHeight="30.0" prefWidth="68.0" text="Новость 32" />
+                     </children></Pane>
+                  <Pane fx:id="News3" layoutX="-2.0" layoutY="330.0" prefHeight="150.0" prefWidth="409.0">
+                     <children>
+                        <Label layoutX="177.0" layoutY="6.0" text="Новость 3" />
+                     </children></Pane>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="170.0" layoutY="5.0" prefHeight="30.0" prefWidth="68.0" text="ALEX_CITY" />
+   </children>
+</AnchorPane>
