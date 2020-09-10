@@ -30,7 +30,7 @@ public class NettyServer implements Runnable {
                                     new ClientHandlerReader());
                         }
                     });
-            ChannelFuture future = bootstrap.bind("localhost", 8189).sync();
+            ChannelFuture future = bootstrap.bind("192.168.0.101", 8189).sync();
             System.out.println("server started");
             future.channel().closeFuture().sync(); // block
         } catch (Exception e) {

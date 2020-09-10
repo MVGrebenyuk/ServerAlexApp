@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.layout.*?>
 
 <AnchorPane prefHeight="603.0" prefWidth="409.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client">
@@ -18,14 +19,29 @@
                   <Pane fx:id="News1" layoutX="1.0" prefHeight="137.0" prefWidth="403.0">
                      <children>
                         <Label layoutX="168.0" layoutY="14.0" prefHeight="30.0" prefWidth="68.0" text="Новость 1" />
+                        <TextArea fx:id="textNews" layoutX="14.0" layoutY="37.0" prefHeight="99.0" prefWidth="376.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </TextArea>
                      </children></Pane>
                   <Pane fx:id="News2" layoutX="1.0" layoutY="161.0" prefHeight="150.0" prefWidth="403.0">
                      <children>
                         <Label layoutX="168.0" layoutY="14.0" prefHeight="30.0" prefWidth="68.0" text="Новость 32" />
+                        <TextArea layoutX="14.0" layoutY="48.0" prefHeight="106.0" prefWidth="376.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </TextArea>
                      </children></Pane>
                   <Pane fx:id="News3" layoutX="-2.0" layoutY="330.0" prefHeight="150.0" prefWidth="409.0">
                      <children>
                         <Label layoutX="177.0" layoutY="6.0" text="Новость 3" />
+                        <TextArea layoutX="14.0" layoutY="38.0" prefHeight="99.0" prefWidth="376.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </TextArea>
                      </children></Pane>
                </children>
             </Pane>
